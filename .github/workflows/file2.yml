@@ -11,7 +11,7 @@ jobs:
     
     steps:
       - name: checkout repositorio
-        uses: actions/checkout@3.3.0
+        uses: actions/checkout@v3.3.0
         
       - name: Upload a build Artifact
         uses: actions/upload-artifact@v3.1.2
